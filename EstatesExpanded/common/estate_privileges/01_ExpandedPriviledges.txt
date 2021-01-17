@@ -1,0 +1,13 @@
+political_church = {
+    icon = "privilege_seek_support_of_clergy"
+    influence = 0.2
+    loyalty = 0.2
+    on_granted = {
+        add_legitimacy = 20
+        add_republican_tradition = 20
+        add_horde_unity = 20
+    }
+    on_revoked = {
+        global_unrest = 2
+    }
+}
